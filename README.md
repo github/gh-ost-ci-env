@@ -6,12 +6,12 @@ This repository serves as a collateral repo to [gh-ost](https://github.com/githu
 
 Since `gh-ost` uses public [Travis CI](https://travis-ci.org/), we confine ourselves to a single docker image, created at each CI. To that effect we wish to be able to quickly bootstrap multiple MySQL master-replica environments.
 
-We choose [dbdeployer](https://github.com/datacharmer/dbdeployer), a tool that deploys MySQL replication clusters in user space, created by @datacharmer.
+We choose [dbdeployer](https://github.com/datacharmer/dbdeployer), a tool that deploys MySQL replication clusters in user space, created by [@datacharmer](https://github.com/datacharmer).
 
 This repository incorporates:
 
 - `dbdeployer` binary
-- Various MySQL minimal tarballs
+- Various MySQL minimal tarballs, available via https://github.com/datacharmer/mysql-docker-minimal by [@datacharmer](https://github.com/datacharmer).
 
 ### Usage
 
