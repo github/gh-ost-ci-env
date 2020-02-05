@@ -18,5 +18,5 @@ This repository incorporates:
 `gh-ost` CI will use this repo as follows:
 
 - Clone it from within the Docker image
-- Deploy and boostrap MySQL master-replica environments
+- Deploy and bootstrap MySQL master-replica environments
 - Run `gh-ost` integration tests on each master-replica environment
